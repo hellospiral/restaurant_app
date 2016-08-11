@@ -16,8 +16,8 @@ export class AppComponent {
   public restaurants: Restaurant[];
   constructor(){
     this.restaurants = [
-      new Restaurant("McDonalds", "Fast Food", "1234 Main St", "$", 0),
-      new Restaurant("Hard Rock Cafe", "Diner", "5555 Buck Ave", "$$", 1)
+      new Restaurant("McDonalds", "Fast Food", "1234 Main St", "$", 0, [4]),
+      new Restaurant("Hard Rock Cafe", "Diner", "5555 Buck Ave", "$$", 1, [5])
     ];
   }
 }

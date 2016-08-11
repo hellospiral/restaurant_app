@@ -1,5 +1,4 @@
 import { Pipe, PipeTransform } from 'angular2/core';
-import { RestaurantListComponent } from './restaurant-list.component';
 import { Restaurant } from './restaurant.model';
 
 @Pipe({
