@@ -5,10 +5,7 @@ import { Restaurant } from './restaurant.model';
   selector: '.restaurant-display',
   inputs: ['restaurant'],
   template: `
-    <td>{{ restaurant.name }}</td>
-    <td>{{ restaurant.specialty }}</td>
-    <td>{{ restaurant.address }}</td>
-    <td>{{ restaurant.price }}</td>
+    <p>{{ restaurant.name }}</p>
   `
 })
 
