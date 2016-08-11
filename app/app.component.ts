@@ -17,7 +17,8 @@ export class AppComponent {
   constructor(){
     this.restaurants = [
       new Restaurant("McDonalds", "Fast Food", "1234 Main St", "$", 0, [4]),
-      new Restaurant("Hard Rock Cafe", "Diner", "5555 Buck Ave", "$$", 1, [5])
+      new Restaurant("Hard Rock Cafe", "Diner", "5555 Buck Ave", "$$", 1, [5]),
+      new Restaurant("KFC", "Chicken dinner", "5555 The Colonel Ave", "$$$", 1, [2])
     ];
   }
 }

@@ -5,9 +5,9 @@ import {Restaurant} from './restaurant.model';
   selector: 'restaurant-details',
   inputs: ['restaurant'],
   template: `
-  <h4>{{ restaurant.specialty }}</h4>
-  <h4>{{ restaurant.address }}</h4>
-  <h4>{{ restaurant.price }}</h4>
+  <h4>Type: {{ restaurant.specialty }}</h4>
+  <h4>Address: {{ restaurant.address }}</h4>
+  <h4>Price: {{ restaurant.price }}</h4>
   <h4>Average rating: {{ restaurant.averageRating(restaurant.points) }} </h4>
   <hr>
   <h4>Add a new rating:</h4>
