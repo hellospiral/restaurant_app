@@ -8,7 +8,7 @@ Angular 2 app where a user can upload a description of a restaurant and other us
 
 ## Goals
 
-* App should app include multiple components as well as a model
+* App should include multiple components as well as a model
 * Should be able to view, create and edit instances of the model
 * Code should use custom and built in event emitters
 * Project should include a pipe
